@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<TextView
+    android:id="@+id/tv_name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="normal"
+    android:textColor="#000"
+    android:drawableLeft="@drawable/ic_user"
+    android:drawablePadding="10dp"
+    android:gravity="center|left"
+    android:textSize="18sp"
+    android:textAllCaps="false"
+    android:text="Mohammed Hamdy"
+    android:layout_margin="6dp"
+    android:padding="2dp"/>
+</LinearLayout>
